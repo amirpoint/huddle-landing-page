@@ -1,0 +1,131 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #00252e;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+
+}
+#marginzero{
+    margin: 0 auto;
+}
+.nav-bar {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 3rem 3rem 2rem 3rem;
+    -webkit-box-shadow: 0px 2px 16px #666666;
+    -moz-box-shadow: 0px 2px 16px #666666;
+    box-shadow: 0px 2px 16px #666666;
+    z-index: 2;
+}
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.btn {
+    -webkit-border-radius: 33;
+    -moz-border-radius: 33;
+    border-radius: 33px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ff52bf;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #ff52bf 1px;
+    text-decoration: none;
+    transition: 200ms;
+
+}  
+.btn:hover {
+    color: #ffffff;
+    background: #ff52bf;
+    text-decoration: none;
+
+}
+.top-container {
+    text-align: center;
+    margin-top: 20rem;
+
+}
+#firstp {
+    margin-bottom: 4rem;
+}
+.btn-2 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    background: #ff52bf;
+    padding: 20px 70px 20px 70px;
+    text-decoration: none;
+    margin-top: 30rem;
+    transition: 200ms;
+
+}
+.btn-2:hover {
+    background: #ff8fd8;
+    text-decoration: none;
+
+}
+.ss-img {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+#flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 7rem;
+    font-weight: lighter;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    color: #0f2439;
+}
+.number-img {
+    text-align: left;
+}
+.bgSectionTop {
+    position: relative;
+    bottom: -6px;
+    width: 100%;
+}
+.top-section {
+    background-color: #f5faff;
+    padding: 2.5rem 6.25rem;
+
+}
+#flex-container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.grow-together-text{
+    width: 35rem;
+}
+.grow-together-img {
+    width: 30rem;
+}
